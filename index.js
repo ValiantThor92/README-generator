@@ -14,43 +14,43 @@ const questions = () => {
       message: "What is the name of your project?"
     },
     {
-      type: 'input',                                                                                /* project description prompt */
+      type: 'input',                                                                              /* description prompt */
       name: 'description',
       message: 'Please provide a project description.'
     },
     {
-      type: 'input',                                                                                /* installation steps promp*/
+      type: 'input',                                                                              /* installation steps prompt */
       name: 'installation',
       message: 'What are the steps required to install your project?'
     },
     {
-      type: 'input',                                                                              /* */
+      type: 'input',                                                                              /* usage instructions prompt */
       name: 'usage',
       message: 'Please provide instructions for use.'
     },
     {
-      type: 'input',                                                                                /* */
-      name: 'contribution',
+      type: 'input',                                                                              /* contributions prompt */
+      name: 'contributions',
       message: 'What should the user know about making contributions to the repository?'
     },
     {
-      type: 'input',                                                                                /* */
+      type: 'input',                                                                              /* testing instructions prompt */
       name: 'test',
       message: 'Please provide instructions for testing.'
     },
     {
-      type: 'list',                                                                                   /* */
+      type: 'list',                                                                               /* licensing selection list prompt */
       name: 'license',
       message: 'What type of license should your project have?',
       choices: ['MIT', 'APACHE 2.0', 'GNU GPL v3', 'BSD 3', 'None']
     },
     {
-      type: 'input',                                                                              /* */
+      type: 'input',                                                                              /* Github username prompt */
       name: 'github',
       message: 'What is your GitHub username?'
     },
     {
-      type: 'input',                                                                              /* */
+      type: 'input',                                                                              /* Email address prompt */
       name: 'email',
       message: 'What is your email address?'
     }
@@ -62,7 +62,7 @@ function writeToFile(data) {                                                    
   return fs.writeFile('./dist/README.md', generateMarkdown(data), err => {
     if (err) throw new Error(err);
 
-    console.log("README generated successfully!");
+    console.log("README.md generated successfully! Locate your file at: " + path.join(__dirname, ',/dist/README.md'));
   })
 };
 

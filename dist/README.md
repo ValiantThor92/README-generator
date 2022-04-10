@@ -1,9 +1,9 @@
-# l;asdfj
+# readme generator
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
   ## Description
-  afdas
+  it generates readmes
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,24 +14,24 @@
   * [Questions](#questions)
   
   ## Installation
-  afd 
+  a 
 
   ## Usage
-  
+  a
 
   ## License 
-  undefined 
-  https://opensource.org/licenses/Apache-2.0
+  This project is licensed under the BSD 3 license. 
+  https://opensource.org/licenses/BSD-3-Clause
 
   ## Contributors
-  
+  a
 
   ## Tests
-  
+  asdf
 
   ## Questions
   If you have any questions, contact us at: <br />
 
-  Github: [](https://github.com/) <br />
-  Email: [](mailto:)
+  Github: [asdf](https://github.com/asdf) <br />
+  Email: [sdf](mailto:sdf)
 
