@@ -1,9 +1,9 @@
-# Sandwhich makin
+# Readme generator
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  it makes sandwhiches
+  a command line app to generate a readme
 
   ## Table of Contents
   * [Installation](#installation)
@@ -14,20 +14,20 @@
   * [Questions](#questions)
   
   ## Installation
-  clone your repo, run npm install in your terminal 
+  clone, install dependencies 
 
   ## Usage
-  get bread, get fixins, put fixins on bread, consume
+  run node index.js to init, answer,
 
   ## License 
-  This project is licensed under the APACHE 2.0 license. <br />
-  https://opensource.org/licenses/Apache-2.0
+  This project is licensed under the MIT license. <br />
+  https://opensource.org/licenses/MIT
 
   ## Contributions
-  dm me if u wanna make sammiches together
+  n/a
 
   ## Testing
-  sniff, taste
+  n/a
 
   ## Questions
   If you have any questions, contact us at: <br />

@@ -42,4 +42,5 @@ If you have any questions, contact us at: <br />
 Github: [valiantthor92](https://github.com/) <br />
 Email: [travislnelson92@gmail.com](mailto:)
 ## Demo
-<video src='./mp4/readme-video-wt.mp4' width=180>
+
+![video demonstration of app usage](media/readme-walkthrough.gif)
