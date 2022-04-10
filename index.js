@@ -35,7 +35,7 @@ const questions = () => {
     },
     {
       type: 'input',                                                                              /* testing instructions prompt */
-      name: 'test',
+      name: 'testing',
       message: 'Please provide instructions for testing.'
     },
     {
@@ -62,7 +62,7 @@ function writeToFile(data) {                                                    
   return fs.writeFile('./dist/README.md', generateMarkdown(data), err => {
     if (err) throw new Error(err);
 
-    console.log("README.md generated successfully! Locate your file at: " + path.join(__dirname, ',/dist/README.md'));
+    console.log("README.md generated successfully! Locate your file at: " + path.join(__dirname, './dist/README.md'));
   })
 };
 
